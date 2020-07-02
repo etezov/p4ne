@@ -23,7 +23,7 @@ class IPv4RandomNetwork(IPv4Network):
 # randmasktest = 24
 
 netarray = []
-netarraystr = []
+# netarraystr = []
 
 for i in range(0, numberofnets):
     randnet = random.randint(0x0B000000, 0xDF000000)
