@@ -9,7 +9,7 @@ for i in dir:
         for l in f:
             if (l.find("ip address") >= 0) & (l.find(".") >= 0):
                 l = l.strip()
-                l = l.replace("ip address", "")
+                l = l.replace("ip address ", "")
                 iplist.append(l)
 iplist = list(set(iplist))
 
