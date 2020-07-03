@@ -9,10 +9,10 @@ def classificator(str):
     m = match(r" ip address ((?:\d{1,3}\.){3}\d{1,3}) ((?:\d{1,3}\.){3}\d{1,3})", str)
     if m:
         return {'ip': IPv4Interface(tuple(m.group(1, 2)))}
-    m = match(r"^interface (\S+)", str)
+    m = match(r"interface (\S+)", str)
     if m:
         return {'int': m.group(1)}
-    m = match(r"^hostname (\S+)", str)
+    m = match(r"hostname (\S+)", str)
     if m:
         return {'host': m.group(1)}
     return {}
