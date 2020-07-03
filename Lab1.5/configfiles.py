@@ -1,6 +1,6 @@
 import glob
 
-dir=glob.glob("E:\работа\Python\p4ne_training\config_files\*.txt")
+dir = glob.glob("E:\работа\Python\p4ne_training\config_files\*.txt")
 
 iplist=[]
 
