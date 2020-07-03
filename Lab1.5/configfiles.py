@@ -1,3 +1,5 @@
+# Lab1.5
+
 import glob
 
 dir = glob.glob("E:\работа\Python\p4ne_training\config_files\*.txt")
